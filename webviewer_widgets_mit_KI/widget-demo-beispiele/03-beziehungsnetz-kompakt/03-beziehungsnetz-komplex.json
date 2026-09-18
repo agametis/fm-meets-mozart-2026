@@ -1,0 +1,652 @@
+{
+  "meta": {
+    "title": "Kunden- und Projektbeziehungsnetz",
+    "subtitle": "Kompletter Präsentationsdatensatz",
+    "rootId": "company:1001",
+    "locale": "de-DE",
+    "currency": "EUR",
+    "datasetMode": "complete",
+    "generatedAt": "2026-09-10T09:00:00+02:00",
+    "nodeTypes": [
+      "company",
+      "contact",
+      "employee",
+      "project",
+      "task",
+      "milestone",
+      "quote",
+      "contract",
+      "invoice",
+      "product",
+      "ticket",
+      "document"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "company:1001",
+      "recordId": "1001",
+      "type": "company",
+      "label": "Muster AG",
+      "subtitle": "Kunde · Wien",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "customerNumber": "KD-1001",
+        "industry": "Medizintechnik",
+        "city": "Wien",
+        "country": "AT"
+      }
+    },
+    {
+      "id": "company:1002",
+      "recordId": "1002",
+      "type": "company",
+      "label": "agametis",
+      "subtitle": "Dienstleister · München",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "customerNumber": "DL-1002",
+        "industry": "Softwareentwicklung",
+        "city": "München",
+        "country": "DE"
+      }
+    },
+    {
+      "id": "company:1003",
+      "recordId": "1003",
+      "type": "company",
+      "label": "AlpenHost GmbH",
+      "subtitle": "Hosting-Partner · Salzburg",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "supplierNumber": "LF-2031",
+        "industry": "Cloud-Infrastruktur",
+        "city": "Salzburg",
+        "country": "AT"
+      }
+    },
+    {
+      "id": "company:1004",
+      "recordId": "1004",
+      "type": "company",
+      "label": "Logistik Süd GmbH",
+      "subtitle": "Ehemaliger Partner · Graz",
+      "status": "inactive",
+      "expandable": false,
+      "details": {
+        "supplierNumber": "LF-1884",
+        "industry": "Logistik",
+        "city": "Graz",
+        "country": "AT"
+      }
+    },
+    {
+      "id": "contact:2101",
+      "recordId": "2101",
+      "type": "contact",
+      "label": "Anna Berger",
+      "subtitle": "Projektleitung",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "email": "anna.berger@example.invalid",
+        "phone": "+43 1 555 0101",
+        "role": "Projektleitung"
+      }
+    },
+    {
+      "id": "contact:2102",
+      "recordId": "2102",
+      "type": "contact",
+      "label": "Lukas Kern",
+      "subtitle": "Einkauf",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "lukas.kern@example.invalid",
+        "phone": "+43 1 555 0102",
+        "role": "Einkauf"
+      }
+    },
+    {
+      "id": "contact:2103",
+      "recordId": "2103",
+      "type": "contact",
+      "label": "Eva Moser",
+      "subtitle": "Geschäftsführung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "eva.moser@example.invalid",
+        "phone": "+43 1 555 0103",
+        "role": "Geschäftsführung"
+      }
+    },
+    {
+      "id": "contact:2104",
+      "recordId": "2104",
+      "type": "contact",
+      "label": "David Hofer",
+      "subtitle": "IT-Administration",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "email": "david.hofer@example.invalid",
+        "phone": "+43 1 555 0104",
+        "role": "IT-Administration"
+      }
+    },
+    {
+      "id": "contact:2105",
+      "recordId": "2105",
+      "type": "contact",
+      "label": "Sarah Lindner",
+      "subtitle": "Buchhaltung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "sarah.lindner@example.invalid",
+        "phone": "+43 1 555 0105",
+        "role": "Buchhaltung"
+      }
+    },
+    {
+      "id": "contact:2106",
+      "recordId": "2106",
+      "type": "contact",
+      "label": "Paul Winter",
+      "subtitle": "Früherer Ansprechpartner",
+      "status": "inactive",
+      "expandable": false,
+      "details": {
+        "email": "paul.winter@example.invalid",
+        "role": "Ehemaliger Projektleiter"
+      }
+    },
+    {
+      "id": "employee:2201",
+      "recordId": "2201",
+      "type": "employee",
+      "label": "Adam Augustin",
+      "subtitle": "Lead Developer",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "department": "Entwicklung",
+        "capacityPercent": 80
+      }
+    },
+    {
+      "id": "employee:2202",
+      "recordId": "2202",
+      "type": "employee",
+      "label": "Nina Roth",
+      "subtitle": "UX Design",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "department": "Design",
+        "capacityPercent": 60
+      }
+    },
+    {
+      "id": "employee:2203",
+      "recordId": "2203",
+      "type": "employee",
+      "label": "Jan Seidel",
+      "subtitle": "Qualitätssicherung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "department": "QA",
+        "capacityPercent": 40
+      }
+    },
+    {
+      "id": "project:3101",
+      "recordId": "3101",
+      "type": "project",
+      "label": "Website Relaunch",
+      "subtitle": "in Umsetzung",
+      "status": "in-progress",
+      "expandable": true,
+      "details": {
+        "projectNumber": "PR-2026-017",
+        "startDate": "2026-08-17",
+        "endDate": "2026-10-12",
+        "budget": 48000
+      }
+    },
+    {
+      "id": "project:3102",
+      "recordId": "3102",
+      "type": "project",
+      "label": "Serviceportal",
+      "subtitle": "geplant",
+      "status": "planned",
+      "expandable": true,
+      "details": {
+        "projectNumber": "PR-2026-024",
+        "startDate": "2026-10-19",
+        "endDate": "2027-01-29",
+        "budget": 72000
+      }
+    },
+    {
+      "id": "project:3103",
+      "recordId": "3103",
+      "type": "project",
+      "label": "Lager-App",
+      "subtitle": "abgeschlossen",
+      "status": "done",
+      "expandable": false,
+      "details": {
+        "projectNumber": "PR-2025-011",
+        "startDate": "2025-04-01",
+        "endDate": "2025-08-22",
+        "budget": 36000
+      }
+    },
+    {
+      "id": "task:3201",
+      "recordId": "3201",
+      "type": "task",
+      "label": "Datenmodell abstimmen",
+      "subtitle": "Website Relaunch",
+      "status": "done",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-08-28",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "task:3202",
+      "recordId": "3202",
+      "type": "task",
+      "label": "Widget-Prototyp erstellen",
+      "subtitle": "Website Relaunch",
+      "status": "in-progress",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-09-18",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "task:3203",
+      "recordId": "3203",
+      "type": "task",
+      "label": "Freigabe einholen",
+      "subtitle": "Website Relaunch",
+      "status": "blocked",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-09-25",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "task:3204",
+      "recordId": "3204",
+      "type": "task",
+      "label": "Anforderungen priorisieren",
+      "subtitle": "Serviceportal",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-10-09",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "task:3205",
+      "recordId": "3205",
+      "type": "task",
+      "label": "Altdaten archivieren",
+      "subtitle": "Lager-App",
+      "status": "archived",
+      "expandable": false,
+      "details": {
+        "dueDate": "2025-09-30",
+        "priority": "low"
+      }
+    },
+    {
+      "id": "milestone:3301",
+      "recordId": "3301",
+      "type": "milestone",
+      "label": "Designfreigabe",
+      "subtitle": "Website Relaunch",
+      "status": "done",
+      "expandable": false,
+      "details": {
+        "date": "2026-09-04"
+      }
+    },
+    {
+      "id": "milestone:3302",
+      "recordId": "3302",
+      "type": "milestone",
+      "label": "Go-live",
+      "subtitle": "Website Relaunch",
+      "status": "planned",
+      "expandable": false,
+      "details": {
+        "date": "2026-10-12"
+      }
+    },
+    {
+      "id": "quote:5101",
+      "recordId": "5101",
+      "type": "quote",
+      "label": "AN-2026-0088",
+      "subtitle": "48.000,00 € · angenommen",
+      "status": "accepted",
+      "expandable": false,
+      "details": {
+        "quoteDate": "2026-07-21",
+        "validUntil": "2026-08-21",
+        "amount": 48000
+      }
+    },
+    {
+      "id": "quote:5102",
+      "recordId": "5102",
+      "type": "quote",
+      "label": "AN-2026-0114",
+      "subtitle": "72.000,00 € · versendet",
+      "status": "sent",
+      "expandable": false,
+      "details": {
+        "quoteDate": "2026-09-01",
+        "validUntil": "2026-09-30",
+        "amount": 72000
+      }
+    },
+    {
+      "id": "contract:5201",
+      "recordId": "5201",
+      "type": "contract",
+      "label": "Rahmenvertrag 2026",
+      "subtitle": "unterzeichnet",
+      "status": "signed",
+      "expandable": true,
+      "details": {
+        "contractNumber": "V-2026-003",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31"
+      }
+    },
+    {
+      "id": "contract:5202",
+      "recordId": "5202",
+      "type": "contract",
+      "label": "Hostingvertrag",
+      "subtitle": "aktiv",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "contractNumber": "V-2026-019",
+        "startDate": "2026-08-01",
+        "endDate": "2027-07-31"
+      }
+    },
+    {
+      "id": "invoice:4101",
+      "recordId": "4101",
+      "type": "invoice",
+      "label": "RE-2026-1042",
+      "subtitle": "12.000,00 € · bezahlt",
+      "status": "paid",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-08-03",
+        "dueDate": "2026-08-17",
+        "amount": 12000
+      }
+    },
+    {
+      "id": "invoice:4102",
+      "recordId": "4102",
+      "type": "invoice",
+      "label": "RE-2026-1077",
+      "subtitle": "9.600,00 € · offen",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-09-01",
+        "dueDate": "2026-09-15",
+        "amount": 9600
+      }
+    },
+    {
+      "id": "invoice:4103",
+      "recordId": "4103",
+      "type": "invoice",
+      "label": "RE-2026-1063",
+      "subtitle": "3.450,00 € · überfällig",
+      "status": "overdue",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-08-10",
+        "dueDate": "2026-08-24",
+        "amount": 3450
+      }
+    },
+    {
+      "id": "invoice:4104",
+      "recordId": "4104",
+      "type": "invoice",
+      "label": "RE-2026-1091",
+      "subtitle": "18.000,00 € · Entwurf",
+      "status": "draft",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-09-10",
+        "dueDate": "2026-09-24",
+        "amount": 18000
+      }
+    },
+    {
+      "id": "invoice:4105",
+      "recordId": "4105",
+      "type": "invoice",
+      "label": "RE-2025-0844",
+      "subtitle": "36.000,00 € · bezahlt",
+      "status": "paid",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2025-08-25",
+        "dueDate": "2025-09-08",
+        "amount": 36000
+      }
+    },
+    {
+      "id": "product:6101",
+      "recordId": "6101",
+      "type": "product",
+      "label": "Widget-Basispaket",
+      "subtitle": "Dienstleistung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "productNumber": "PROD-101",
+        "unitPrice": 8500
+      }
+    },
+    {
+      "id": "product:6102",
+      "recordId": "6102",
+      "type": "product",
+      "label": "Supportkontingent",
+      "subtitle": "40 Stunden",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "productNumber": "PROD-220",
+        "unitPrice": 6400
+      }
+    },
+    {
+      "id": "product:6103",
+      "recordId": "6103",
+      "type": "product",
+      "label": "Legacy-Connector",
+      "subtitle": "nicht mehr angeboten",
+      "status": "inactive",
+      "expandable": false,
+      "details": {
+        "productNumber": "PROD-090",
+        "unitPrice": 3200
+      }
+    },
+    {
+      "id": "ticket:7101",
+      "recordId": "7101",
+      "type": "ticket",
+      "label": "T-2026-118",
+      "subtitle": "Login schlägt fehl",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "priority": "high",
+        "createdAt": "2026-09-08T10:15:00+02:00"
+      }
+    },
+    {
+      "id": "ticket:7102",
+      "recordId": "7102",
+      "type": "ticket",
+      "label": "T-2026-096",
+      "subtitle": "PDF-Export",
+      "status": "in-progress",
+      "expandable": false,
+      "details": {
+        "priority": "medium",
+        "createdAt": "2026-08-31T14:40:00+02:00"
+      }
+    },
+    {
+      "id": "ticket:7103",
+      "recordId": "7103",
+      "type": "ticket",
+      "label": "T-2026-041",
+      "subtitle": "Import abgeschlossen",
+      "status": "closed",
+      "expandable": false,
+      "details": {
+        "priority": "low",
+        "createdAt": "2026-06-12T09:05:00+02:00"
+      }
+    },
+    {
+      "id": "document:8101",
+      "recordId": "8101",
+      "type": "document",
+      "label": "Lastenheft.pdf",
+      "subtitle": "Version 3",
+      "status": "approved",
+      "expandable": false,
+      "details": {
+        "documentType": "Spezifikation",
+        "modifiedAt": "2026-08-19T16:20:00+02:00"
+      }
+    },
+    {
+      "id": "document:8102",
+      "recordId": "8102",
+      "type": "document",
+      "label": "Wireframes.fig",
+      "subtitle": "in Bearbeitung",
+      "status": "draft",
+      "expandable": false,
+      "details": {
+        "documentType": "Design",
+        "modifiedAt": "2026-09-07T11:45:00+02:00"
+      }
+    },
+    {
+      "id": "document:8103",
+      "recordId": "8103",
+      "type": "document",
+      "label": "Abnahmeprotokoll.pdf",
+      "subtitle": "archiviert",
+      "status": "archived",
+      "expandable": false,
+      "details": {
+        "documentType": "Abnahme",
+        "modifiedAt": "2025-08-25T15:00:00+02:00"
+      }
+    }
+  ],
+  "edges": [
+    { "id": "edge:001", "source": "company:1001", "target": "contact:2101", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:002", "source": "company:1001", "target": "contact:2102", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:003", "source": "company:1001", "target": "contact:2103", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:004", "source": "company:1001", "target": "contact:2104", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:005", "source": "company:1001", "target": "contact:2105", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:006", "source": "company:1001", "target": "contact:2106", "type": "formerly-employed", "label": "ehemals beschäftigt" },
+    { "id": "edge:007", "source": "company:1002", "target": "employee:2201", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:008", "source": "company:1002", "target": "employee:2202", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:009", "source": "company:1002", "target": "employee:2203", "type": "employs", "label": "beschäftigt" },
+    { "id": "edge:010", "source": "company:1001", "target": "company:1002", "type": "customer-of", "label": "Kunde von" },
+    { "id": "edge:011", "source": "company:1002", "target": "company:1003", "type": "partner-of", "label": "Partner von" },
+    { "id": "edge:012", "source": "company:1001", "target": "company:1004", "type": "formerly-partnered", "label": "früherer Partner" },
+    { "id": "edge:013", "source": "company:1001", "target": "project:3101", "type": "owns", "label": "beauftragt" },
+    { "id": "edge:014", "source": "company:1001", "target": "project:3102", "type": "owns", "label": "beauftragt" },
+    { "id": "edge:015", "source": "company:1001", "target": "project:3103", "type": "owns", "label": "beauftragt" },
+    { "id": "edge:016", "source": "company:1002", "target": "project:3101", "type": "delivers", "label": "realisiert" },
+    { "id": "edge:017", "source": "company:1002", "target": "project:3102", "type": "delivers", "label": "realisiert" },
+    { "id": "edge:018", "source": "company:1002", "target": "project:3103", "type": "delivered", "label": "realisierte" },
+    { "id": "edge:019", "source": "contact:2101", "target": "project:3101", "type": "leads", "label": "leitet" },
+    { "id": "edge:020", "source": "contact:2103", "target": "project:3102", "type": "sponsors", "label": "sponsert" },
+    { "id": "edge:021", "source": "contact:2104", "target": "project:3101", "type": "reviews", "label": "prüft" },
+    { "id": "edge:022", "source": "employee:2201", "target": "project:3101", "type": "works-on", "label": "entwickelt" },
+    { "id": "edge:023", "source": "employee:2201", "target": "project:3102", "type": "works-on", "label": "berät" },
+    { "id": "edge:024", "source": "employee:2202", "target": "project:3101", "type": "works-on", "label": "gestaltet" },
+    { "id": "edge:025", "source": "employee:2203", "target": "project:3101", "type": "works-on", "label": "testet" },
+    { "id": "edge:026", "source": "project:3101", "target": "task:3201", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:027", "source": "project:3101", "target": "task:3202", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:028", "source": "project:3101", "target": "task:3203", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:029", "source": "project:3102", "target": "task:3204", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:030", "source": "project:3103", "target": "task:3205", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:031", "source": "employee:2201", "target": "task:3202", "type": "assigned-to", "label": "verantwortlich" },
+    { "id": "edge:032", "source": "employee:2202", "target": "task:3203", "type": "assigned-to", "label": "verantwortlich" },
+    { "id": "edge:033", "source": "project:3101", "target": "milestone:3301", "type": "contains", "label": "Meilenstein" },
+    { "id": "edge:034", "source": "project:3101", "target": "milestone:3302", "type": "contains", "label": "Meilenstein" },
+    { "id": "edge:035", "source": "company:1001", "target": "quote:5101", "type": "received", "label": "erhielt Angebot" },
+    { "id": "edge:036", "source": "company:1001", "target": "quote:5102", "type": "received", "label": "erhielt Angebot" },
+    { "id": "edge:037", "source": "quote:5101", "target": "project:3101", "type": "became", "label": "wurde Projekt" },
+    { "id": "edge:038", "source": "quote:5102", "target": "project:3102", "type": "proposes", "label": "betrifft" },
+    { "id": "edge:039", "source": "company:1001", "target": "contract:5201", "type": "signed", "label": "unterzeichnete" },
+    { "id": "edge:040", "source": "company:1003", "target": "contract:5202", "type": "provides", "label": "liefert" },
+    { "id": "edge:041", "source": "contract:5201", "target": "project:3101", "type": "governs", "label": "regelt" },
+    { "id": "edge:042", "source": "contract:5201", "target": "project:3102", "type": "governs", "label": "regelt" },
+    { "id": "edge:043", "source": "contract:5202", "target": "project:3101", "type": "supports", "label": "Hosting für" },
+    { "id": "edge:044", "source": "project:3101", "target": "invoice:4101", "type": "billed-by", "label": "Abschlag" },
+    { "id": "edge:045", "source": "project:3101", "target": "invoice:4102", "type": "billed-by", "label": "Abschlag" },
+    { "id": "edge:046", "source": "contract:5201", "target": "invoice:4103", "type": "billed-by", "label": "Support" },
+    { "id": "edge:047", "source": "project:3102", "target": "invoice:4104", "type": "billed-by", "label": "geplant" },
+    { "id": "edge:048", "source": "project:3103", "target": "invoice:4105", "type": "billed-by", "label": "Schlussrechnung" },
+    { "id": "edge:049", "source": "contact:2105", "target": "invoice:4102", "type": "responsible-for", "label": "prüft" },
+    { "id": "edge:050", "source": "contact:2105", "target": "invoice:4103", "type": "responsible-for", "label": "prüft" },
+    { "id": "edge:051", "source": "quote:5101", "target": "product:6101", "type": "includes", "label": "enthält" },
+    { "id": "edge:052", "source": "contract:5201", "target": "product:6102", "type": "includes", "label": "enthält" },
+    { "id": "edge:053", "source": "project:3103", "target": "product:6103", "type": "used", "label": "verwendete" },
+    { "id": "edge:054", "source": "contact:2104", "target": "ticket:7101", "type": "reported", "label": "meldete" },
+    { "id": "edge:055", "source": "contact:2101", "target": "ticket:7102", "type": "reported", "label": "meldete" },
+    { "id": "edge:056", "source": "contact:2106", "target": "ticket:7103", "type": "reported", "label": "meldete" },
+    { "id": "edge:057", "source": "ticket:7101", "target": "project:3102", "type": "relates-to", "label": "betrifft" },
+    { "id": "edge:058", "source": "ticket:7102", "target": "project:3101", "type": "relates-to", "label": "betrifft" },
+    { "id": "edge:059", "source": "employee:2203", "target": "ticket:7101", "type": "assigned-to", "label": "bearbeitet" },
+    { "id": "edge:060", "source": "project:3101", "target": "document:8101", "type": "documented-by", "label": "Spezifikation" },
+    { "id": "edge:061", "source": "project:3101", "target": "document:8102", "type": "documented-by", "label": "Design" },
+    { "id": "edge:062", "source": "project:3103", "target": "document:8103", "type": "documented-by", "label": "Abnahme" },
+    { "id": "edge:063", "source": "contact:2101", "target": "document:8101", "type": "approved", "label": "freigegeben von" },
+    { "id": "edge:064", "source": "employee:2202", "target": "document:8102", "type": "authored", "label": "erstellt von" }
+  ]
+}

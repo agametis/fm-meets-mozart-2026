@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Auftragskarte Salzburg",
+    "locale": "de-AT",
+    "center": {
+      "latitude": 47.8014,
+      "longitude": 13.0448
+    },
+    "zoom": 13,
+    "fitMarkers": true,
+    "tileUrl": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "data": [
+    {
+      "recordId": "5001",
+      "orderNumber": "AU-2026-184",
+      "jobType": "plumbing",
+      "jobLabel": "Sanitär",
+      "status": "urgent",
+      "statusLabel": "Dringend",
+      "customer": "Musterhaus Verwaltung",
+      "address": {
+        "street": "Getreidegasse 15",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.80039,
+        "longitude": 13.04399
+      },
+      "appointment": {
+        "date": "2026-09-15",
+        "timeFrom": "09:00",
+        "timeTo": "10:30"
+      },
+      "summary": "Wasserverlust unter dem Waschbecken prüfen",
+      "contactName": "Maria Leitner",
+      "contactPhone": "+43 662 555 0101"
+    },
+    {
+      "recordId": "5002",
+      "orderNumber": "AU-2026-185",
+      "jobType": "electrical",
+      "jobLabel": "Elektro",
+      "status": "scheduled",
+      "statusLabel": "Eingeplant",
+      "customer": "Beispiel GmbH",
+      "address": {
+        "street": "Linzer Gasse 22",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.80549,
+        "longitude": 13.04967
+      },
+      "appointment": {
+        "date": "2026-09-15",
+        "timeFrom": "11:00",
+        "timeTo": "12:00"
+      },
+      "summary": "Defekte Außenbeleuchtung ersetzen",
+      "contactName": "Thomas Berger",
+      "contactPhone": "+43 662 555 0102"
+    },
+    {
+      "recordId": "5003",
+      "orderNumber": "AU-2026-186",
+      "jobType": "heating",
+      "jobLabel": "Heizung",
+      "status": "in-progress",
+      "statusLabel": "In Arbeit",
+      "customer": "Mozart & Partner",
+      "address": {
+        "street": "Mirabellplatz 5",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.80663,
+        "longitude": 13.04172
+      },
+      "appointment": {
+        "date": "2026-09-15",
+        "timeFrom": "08:00",
+        "timeTo": "11:30"
+      },
+      "summary": "Heizkörperventil und Thermostat austauschen",
+      "contactName": "Eva Moser",
+      "contactPhone": "+43 662 555 0103"
+    },
+    {
+      "recordId": "5004",
+      "orderNumber": "AU-2026-190",
+      "jobType": "painting",
+      "jobLabel": "Malerarbeiten",
+      "status": "scheduled",
+      "statusLabel": "Eingeplant",
+      "customer": "Praxis am Nonntal",
+      "address": {
+        "street": "Nonntaler Hauptstraße 18",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.79284,
+        "longitude": 13.05324
+      },
+      "appointment": {
+        "date": "2026-09-16",
+        "timeFrom": "08:30",
+        "timeTo": "13:00"
+      },
+      "summary": "Wartezimmer ausbessern und neu streichen",
+      "contactName": "Daniel Hofer",
+      "contactPhone": "+43 662 555 0104"
+    },
+    {
+      "recordId": "5005",
+      "orderNumber": "AU-2026-193",
+      "jobType": "carpentry",
+      "jobLabel": "Tischlerei",
+      "status": "new",
+      "statusLabel": "Neu",
+      "customer": "Familie Winter",
+      "address": {
+        "street": "Maxglaner Hauptstraße 38",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.79996,
+        "longitude": 13.02055
+      },
+      "appointment": {
+        "date": "2026-09-17",
+        "timeFrom": "14:00",
+        "timeTo": "15:30"
+      },
+      "summary": "Balkontür einstellen und Dichtung erneuern",
+      "contactName": "Claudia Winter",
+      "contactPhone": "+43 662 555 0105"
+    },
+    {
+      "recordId": "5006",
+      "orderNumber": "AU-2026-197",
+      "jobType": "roofing",
+      "jobLabel": "Dacharbeiten",
+      "status": "completed",
+      "statusLabel": "Erledigt",
+      "customer": "Wohnanlage Gaisberg",
+      "address": {
+        "street": "Gaisbergstraße 24",
+        "postalCode": "5020",
+        "city": "Salzburg",
+        "latitude": 47.80318,
+        "longitude": 13.07302
+      },
+      "appointment": {
+        "date": "2026-09-14",
+        "timeFrom": "10:00",
+        "timeTo": "12:30"
+      },
+      "summary": "Lose Dachziegel befestigen und Rinne prüfen",
+      "contactName": "Peter Auer",
+      "contactPhone": "+43 662 555 0106"
+    }
+  ]
+}

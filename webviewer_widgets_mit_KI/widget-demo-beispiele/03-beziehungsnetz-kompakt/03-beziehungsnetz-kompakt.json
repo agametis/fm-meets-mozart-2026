@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "Beziehungsnetz Muster AG",
+    "subtitle": "Kompakter Präsentationsdatensatz",
+    "rootId": "company:1001",
+    "locale": "de-DE",
+    "currency": "EUR",
+    "datasetMode": "compact",
+    "generatedAt": "2026-09-10T10:00:00+02:00",
+    "nodeTypes": [
+      "company",
+      "contact",
+      "employee",
+      "project",
+      "task",
+      "milestone",
+      "quote",
+      "contract",
+      "invoice",
+      "product",
+      "ticket",
+      "document"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "company:1001",
+      "recordId": "1001",
+      "type": "company",
+      "label": "Muster AG",
+      "subtitle": "Kunde · Wien",
+      "status": "active",
+      "expandable": true,
+      "details": {
+        "customerNumber": "KD-1001",
+        "industry": "Medizintechnik",
+        "city": "Wien",
+        "country": "AT"
+      }
+    },
+    {
+      "id": "contact:2101",
+      "recordId": "2101",
+      "type": "contact",
+      "label": "Anna Berger",
+      "subtitle": "Projektleitung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "anna.berger@example.invalid",
+        "phone": "+43 1 555 0101",
+        "role": "Projektleitung"
+      }
+    },
+    {
+      "id": "contact:2102",
+      "recordId": "2102",
+      "type": "contact",
+      "label": "Lukas Kern",
+      "subtitle": "Einkauf",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "lukas.kern@example.invalid",
+        "phone": "+43 1 555 0102",
+        "role": "Einkauf"
+      }
+    },
+    {
+      "id": "contact:2103",
+      "recordId": "2103",
+      "type": "contact",
+      "label": "Sarah Lindner",
+      "subtitle": "Buchhaltung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "email": "sarah.lindner@example.invalid",
+        "phone": "+43 1 555 0103",
+        "role": "Buchhaltung"
+      }
+    },
+    {
+      "id": "employee:2201",
+      "recordId": "2201",
+      "type": "employee",
+      "label": "Adam Augustin",
+      "subtitle": "Lead Developer",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "department": "Entwicklung",
+        "capacityPercent": 80
+      }
+    },
+    {
+      "id": "employee:2202",
+      "recordId": "2202",
+      "type": "employee",
+      "label": "Nina Roth",
+      "subtitle": "UX Design",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "department": "Design",
+        "capacityPercent": 60
+      }
+    },
+    {
+      "id": "project:3101",
+      "recordId": "3101",
+      "type": "project",
+      "label": "Website Relaunch",
+      "subtitle": "in Umsetzung",
+      "status": "in-progress",
+      "expandable": true,
+      "details": {
+        "projectNumber": "PR-2026-017",
+        "startDate": "2026-08-17",
+        "endDate": "2026-10-12",
+        "budget": 48000
+      }
+    },
+    {
+      "id": "project:3102",
+      "recordId": "3102",
+      "type": "project",
+      "label": "Serviceportal",
+      "subtitle": "geplant",
+      "status": "planned",
+      "expandable": true,
+      "details": {
+        "projectNumber": "PR-2026-024",
+        "startDate": "2026-10-19",
+        "endDate": "2027-01-29",
+        "budget": 72000
+      }
+    },
+    {
+      "id": "task:3201",
+      "recordId": "3201",
+      "type": "task",
+      "label": "Widget-Prototyp erstellen",
+      "subtitle": "Website Relaunch",
+      "status": "in-progress",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-09-18",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "task:3202",
+      "recordId": "3202",
+      "type": "task",
+      "label": "Anforderungen priorisieren",
+      "subtitle": "Serviceportal",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "dueDate": "2026-10-09",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "milestone:3301",
+      "recordId": "3301",
+      "type": "milestone",
+      "label": "Go-live",
+      "subtitle": "Website Relaunch",
+      "status": "planned",
+      "expandable": false,
+      "details": {
+        "date": "2026-10-12"
+      }
+    },
+    {
+      "id": "quote:5101",
+      "recordId": "5101",
+      "type": "quote",
+      "label": "AN-2026-0088",
+      "subtitle": "48.000,00 € · angenommen",
+      "status": "accepted",
+      "expandable": false,
+      "details": {
+        "quoteDate": "2026-07-21",
+        "validUntil": "2026-08-21",
+        "amount": 48000
+      }
+    },
+    {
+      "id": "contract:5201",
+      "recordId": "5201",
+      "type": "contract",
+      "label": "Rahmenvertrag 2026",
+      "subtitle": "unterzeichnet",
+      "status": "signed",
+      "expandable": false,
+      "details": {
+        "contractNumber": "V-2026-003",
+        "startDate": "2026-01-01",
+        "endDate": "2026-12-31"
+      }
+    },
+    {
+      "id": "invoice:4101",
+      "recordId": "4101",
+      "type": "invoice",
+      "label": "RE-2026-1042",
+      "subtitle": "12.000,00 € · bezahlt",
+      "status": "paid",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-08-03",
+        "dueDate": "2026-08-17",
+        "amount": 12000
+      }
+    },
+    {
+      "id": "invoice:4102",
+      "recordId": "4102",
+      "type": "invoice",
+      "label": "RE-2026-1077",
+      "subtitle": "9.600,00 € · offen",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-09-01",
+        "dueDate": "2026-09-15",
+        "amount": 9600
+      }
+    },
+    {
+      "id": "invoice:4103",
+      "recordId": "4103",
+      "type": "invoice",
+      "label": "RE-2026-1091",
+      "subtitle": "18.000,00 € · Entwurf",
+      "status": "draft",
+      "expandable": false,
+      "details": {
+        "invoiceDate": "2026-09-10",
+        "dueDate": "2026-09-24",
+        "amount": 18000
+      }
+    },
+    {
+      "id": "product:6101",
+      "recordId": "6101",
+      "type": "product",
+      "label": "Widget-Basispaket",
+      "subtitle": "Dienstleistung",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "productNumber": "PROD-101",
+        "unitPrice": 8500
+      }
+    },
+    {
+      "id": "product:6102",
+      "recordId": "6102",
+      "type": "product",
+      "label": "Supportkontingent",
+      "subtitle": "40 Stunden",
+      "status": "active",
+      "expandable": false,
+      "details": {
+        "productNumber": "PROD-220",
+        "unitPrice": 6400
+      }
+    },
+    {
+      "id": "ticket:7101",
+      "recordId": "7101",
+      "type": "ticket",
+      "label": "T-2026-118",
+      "subtitle": "Login schlägt fehl",
+      "status": "open",
+      "expandable": false,
+      "details": {
+        "priority": "high",
+        "createdAt": "2026-09-08T10:15:00+02:00"
+      }
+    },
+    {
+      "id": "document:8101",
+      "recordId": "8101",
+      "type": "document",
+      "label": "Lastenheft.pdf",
+      "subtitle": "Version 3 · freigegeben",
+      "status": "approved",
+      "expandable": false,
+      "details": {
+        "documentType": "Spezifikation",
+        "modifiedAt": "2026-08-19T16:20:00+02:00"
+      }
+    }
+  ],
+  "edges": [
+    { "id": "edge:001", "source": "company:1001", "target": "contact:2101", "type": "employs", "label": "Projektleitung" },
+    { "id": "edge:002", "source": "company:1001", "target": "contact:2102", "type": "employs", "label": "Einkauf" },
+    { "id": "edge:003", "source": "company:1001", "target": "contact:2103", "type": "employs", "label": "Buchhaltung" },
+    { "id": "edge:004", "source": "company:1001", "target": "project:3101", "type": "owns", "label": "beauftragt" },
+    { "id": "edge:005", "source": "company:1001", "target": "project:3102", "type": "owns", "label": "beauftragt" },
+    { "id": "edge:006", "source": "contact:2101", "target": "project:3101", "type": "leads", "label": "leitet" },
+    { "id": "edge:007", "source": "contact:2101", "target": "project:3102", "type": "coordinates", "label": "koordiniert" },
+    { "id": "edge:008", "source": "employee:2201", "target": "project:3101", "type": "works-on", "label": "entwickelt" },
+    { "id": "edge:009", "source": "employee:2201", "target": "project:3102", "type": "works-on", "label": "berät" },
+    { "id": "edge:010", "source": "employee:2202", "target": "project:3101", "type": "works-on", "label": "gestaltet" },
+    { "id": "edge:011", "source": "project:3101", "target": "task:3201", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:012", "source": "project:3102", "target": "task:3202", "type": "contains", "label": "Aufgabe" },
+    { "id": "edge:013", "source": "employee:2201", "target": "task:3201", "type": "assigned-to", "label": "verantwortlich" },
+    { "id": "edge:014", "source": "project:3101", "target": "milestone:3301", "type": "contains", "label": "Meilenstein" },
+    { "id": "edge:015", "source": "company:1001", "target": "quote:5101", "type": "received", "label": "erhielt Angebot" },
+    { "id": "edge:016", "source": "quote:5101", "target": "project:3101", "type": "became", "label": "wurde Projekt" },
+    { "id": "edge:017", "source": "company:1001", "target": "contract:5201", "type": "signed", "label": "unterzeichnete" },
+    { "id": "edge:018", "source": "contract:5201", "target": "project:3101", "type": "governs", "label": "regelt" },
+    { "id": "edge:019", "source": "contract:5201", "target": "project:3102", "type": "governs", "label": "regelt" },
+    { "id": "edge:020", "source": "project:3101", "target": "invoice:4101", "type": "billed-by", "label": "Abschlag bezahlt" },
+    { "id": "edge:021", "source": "project:3101", "target": "invoice:4102", "type": "billed-by", "label": "Abschlag offen" },
+    { "id": "edge:022", "source": "project:3102", "target": "invoice:4103", "type": "billed-by", "label": "Entwurf" },
+    { "id": "edge:023", "source": "contact:2103", "target": "invoice:4101", "type": "responsible-for", "label": "prüft" },
+    { "id": "edge:024", "source": "contact:2103", "target": "invoice:4102", "type": "responsible-for", "label": "prüft" },
+    { "id": "edge:025", "source": "contact:2103", "target": "invoice:4103", "type": "responsible-for", "label": "prüft" },
+    { "id": "edge:026", "source": "quote:5101", "target": "product:6101", "type": "includes", "label": "enthält" },
+    { "id": "edge:027", "source": "contract:5201", "target": "product:6102", "type": "includes", "label": "enthält" },
+    { "id": "edge:028", "source": "contact:2102", "target": "quote:5101", "type": "approved", "label": "bestätigte" },
+    { "id": "edge:029", "source": "contact:2101", "target": "ticket:7101", "type": "reported", "label": "meldete" },
+    { "id": "edge:030", "source": "ticket:7101", "target": "project:3102", "type": "relates-to", "label": "betrifft" },
+    { "id": "edge:031", "source": "employee:2201", "target": "ticket:7101", "type": "assigned-to", "label": "bearbeitet" },
+    { "id": "edge:032", "source": "project:3101", "target": "document:8101", "type": "documented-by", "label": "Spezifikation" },
+    { "id": "edge:033", "source": "contact:2101", "target": "document:8101", "type": "approved", "label": "freigegeben von" }
+  ]
+}
